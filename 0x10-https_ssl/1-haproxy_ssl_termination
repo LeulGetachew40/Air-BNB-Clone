@@ -48,4 +48,4 @@ frontend tjibbs-frontend-https
 backend tjibbs-backend
         balance roundrobin
         server 145920-web-01 54.237.224.189:80 check
-        server 145920-web-02 100.25.33.239:80 check
+        server 145920-web-02 100.25.33.239 :80 check
